@@ -12,7 +12,7 @@ module Roodi
 
       def initialize(options = {})
         line_count = options['line_count'] || DEFAULT_LINE_COUNT
-        super([:defs], line_count, 'Class Method')
+        super([:defn], line_count, 'Class Method')
       end
     end
   end
