@@ -10,6 +10,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ["Manifest.txt", "README.txt"]
   s.files = ["History.txt", "Manifest.txt", "README.txt", "Rakefile"]
   s.files += Dir['lib/**/*.rb'] + Dir['spec/**/*.rb']
+  s.executables = ['roodi', 'roodi-describe']
   s.rdoc_options = ["--main", "README.txt"]
   s.require_paths = ["lib"]
   s.rubyforge_project = 'roodi'
